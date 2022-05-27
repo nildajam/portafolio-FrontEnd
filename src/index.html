@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>NildaPw</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <script>
+    function cambiar_parrafo() {
+      document.getElementById("edit-acercade").style.display = "block";
+      let texto = document.getElementById("text-acercade").innerText;
+      console.log(texto);
+    };
+
+    function myFunction2(valor) {
+      document.getElementById("text-acercade").innerText = valor;
+    };
+
+    function logMessage(message) {
+      console.log(message + "<br>");
+    };
+
+    let textarea = document.getElementById("edit-acercade")
+    textarea.addEventListener('keyup', (e) => {
+      logMessage(`Key "${e.key}" released  [event: keyup]`);
+      if (e.key === "Enter") {
+        document.getElementById("edit-acercade").style.display = "none";
+      }
+    });
+  </script>
+
+</body>
+
+</html>

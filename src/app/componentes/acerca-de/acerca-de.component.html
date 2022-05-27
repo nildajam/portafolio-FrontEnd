@@ -1,0 +1,17 @@
+<div class="card p-4">
+    <div class="d-flex justify-content-between">
+        <h2 class="card-title">Acerca de</h2>
+        <div class="btn-edit" onclick="cambiar_parrafo()">
+            <a class="material-icons btn px-0 pe-lg-3">
+                drive_file_rename_outline
+            </a>
+        </div>
+
+    </div>
+    <div>
+        <p id="text-acercade">{{miPortafolio.about}}</p>
+    </div>
+    <div>
+        <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:none">
+    </div>
+</div>

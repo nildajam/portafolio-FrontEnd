@@ -1,0 +1,45 @@
+<div class="card p-4" style="width: auto;">
+    <div class="d-flex justify-content-between mb-2">
+        <h2 class="card-title">Proyectos</h2>
+        <a class="material-icons btn px-0 pe-lg-3">
+            add
+        </a>
+    </div>
+
+    <div class="row g-2 py-4 px-0">
+        <div class="col-md-6">
+            <div class="card-body p-0">
+                <h5 class="card-title">{{miPortafolio.projects.title}}</h5>
+                <p class="card-text">{{miPortafolio.projects.description}}
+                    <br>
+                    {{miPortafolio.projects.start}}
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6 py-0">
+            <div class="card-body p-0 gap-2">
+                <div class="row d-flex justify-content-sm-between p-0">
+                    <div class="col-sm-10">
+                        <img [src]="miPortafolio.projects.img" width="400" height=""
+                            class="img-fluid shadow mb-2 bg-body" alt="...">
+                    </div>
+                    <div class="col-sm-2 d-flex justify-content-sm-start pe-0">
+                        <a class="material-icons btn p-0">
+                            drive_file_rename_outline
+                        </a>
+                        <a class="material-icons btn p-0">
+                            delete_outline
+                        </a>
+                    </div>
+                </div>
+
+                <div class="py-2">
+                    <a target="_blank" [href]="miPortafolio.projects.url" class="btn btn-primary me-2">Ver
+                        Proyecto</a>
+                    <a target="_blank" [href]="miPortafolio.projects.url" class="btn btn-outline-primary">Ver
+                        Código</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

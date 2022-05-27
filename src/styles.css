@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+.wrapper {
+    max-inline-size: 72.375rem;
+    padding-inline-end: 0.5rem;
+    padding-inline-start: 0.5rem;
+    margin: auto;
+}
+
+.header {
+    justify-content: space-between;
+    max-inline-size: 72.375rem;
+    padding-inline-end: 0.5rem;
+    padding-inline-start: 0.5rem;    
+}
+
+.card {
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+
+.card-banner {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+.card-profile img {
+    margin-left: 1.5rem;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+}
+
+.card a {
+text-decoration: none;
+}
