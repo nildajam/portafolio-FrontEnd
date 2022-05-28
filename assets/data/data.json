@@ -1,0 +1,53 @@
+{
+    "name": "Nilda Aguillón",
+    "backImage": "assets/images/banner.png",
+    "image": "assets/images/Nilda.jpg",
+    "position": "Full Stack Developer Jr | Ing. Civil",
+    "company" : {
+        "name": "INTI",
+        "img": "assets/images/inti.png",
+        "url": "https://www.argentina.gob.ar/inti"
+    },
+    "school": {
+        "name": "La Universidad del Zulia",
+        "img": "assets/images/luz.png",
+        "url": "http://www.luz.edu.ve/"        
+    },
+    "ubication": "Buenos Aires (Argentina) ",
+    "about": "Actualmente realizo el curso #YoProgramo para Dev Full Stack, también estudio programación de forma autodidacta, donde obtengo conocimientos mientras realizo proyectos prácticos. Estoy interesada en encontrar mi primer empleo en IT, donde pueda capacitarme y crecer como developer.",
+    "experience": [{
+        "position": "Administración de obra",
+        "company": "Chediack Ingenem",
+        "img":"assets/images/exp2.png",
+        "mode": "Jornada completa",
+        "start": "may. 2021",
+        "end": "dic. 2021",
+        "timeElapsed": "8 meses",
+        "ubication": "Argentina"
+    },
+    {
+        "position": "Oficina Técnica / Producción",
+        "company": "Green S.A. Ceosa",
+        "img":"assets/images/exp1.png",
+        "mode": "Jornada completa",
+        "start": "jun. 2017",
+        "end": "may. 2019",
+        "timeElapsed": "2 años",
+        "ubication": "Argentina"
+    }],
+    "education": {
+        "school": "La Universidad del Zulia",
+        "title": "Ingeniera Civil",
+        "img": "assets/images/luz.png",
+        "start": "2003",
+        "end": "2009"
+    },
+    "projects": {
+        "title": "Portafolio Web - Proyecto Integrador TP",
+        "description": "Aplicación web full stack con arquitectura distribuida. (En construcción).",
+        "start": "feb. 2022",
+        "end": "",
+        "img": "assets/images/proy1_tp.png",
+        "url": "https://github.com/nildajam"
+    }
+}
