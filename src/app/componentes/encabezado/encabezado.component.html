@@ -36,7 +36,10 @@
                     </li>
 
                     <li class="navbar-brand me-0 ms-2 py-0 pt-1">
-                        <button class="btn btn-outline-light" type="submit">Login</button>
+                        <button type="submit" class="btn btn-outline-light" (click)="login()"
+                            *ngIf="!isLogged">Login</button>
+                        <button type="submit" class="btn btn-outline-light" (click)="onLogOut()"
+                            *ngIf="isLogged">Logout</button>
                     </li>
 
                 </ul>

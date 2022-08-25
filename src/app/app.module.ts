@@ -9,7 +9,13 @@ import { ExpeEducCursosComponent } from './componentes/expe-educ-cursos/expe-edu
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { PortafolioService } from './servicios/portafolio.service';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -18,14 +24,21 @@ import { HttpClientModule } from '@angular/common/http';
     AcercaDeComponent,
     ExpeEducCursosComponent,
     SkillsComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    IniciarSesionComponent,
+    PortafolioComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
+
   providers: [PortafolioService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
