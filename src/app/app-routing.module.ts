@@ -4,13 +4,12 @@ import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-ses
 import { PortafolioComponent } from './componentes/portafolio/portafolio.component'; //home
 
 const routes: Routes = [
-  {path:'', component:PortafolioComponent}, //home
-  {path:'iniciar-sesion', component:IniciarSesionComponent}, //login
-  /*{path:'', redirectTo:'iniciar-sesion', pathMatch:'full'}*/
+  { path: '', component: PortafolioComponent }, //home
+  { path: 'iniciar-sesion', component: IniciarSesionComponent }, //login
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

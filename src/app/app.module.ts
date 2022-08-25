@@ -8,14 +8,12 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ExpeEducCursosComponent } from './componentes/expe-educ-cursos/expe-educ-cursos.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { PortafolioService } from './servicios/portafolio.service';
+import { PortafolioService } from './service/portafolio.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
-
-
 
 @NgModule({
   declarations: [
@@ -38,7 +36,6 @@ import { FormsModule } from '@angular/forms';
   ],
 
   providers: [PortafolioService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-
-export class AppModule { }
+export class AppModule {}
